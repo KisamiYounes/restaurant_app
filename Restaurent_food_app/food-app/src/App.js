@@ -1,12 +1,19 @@
 
+import { Component } from 'react';
+import Sidebar from './component/Sidebar';
+import Main from './component/Main';
 import './App.css';
 
-function App() {
+class App extends Component {
+  render(){
+
   return (
-    <div className="App">
-      <h1>hello world</h1>
+    <div >
+      <Sidebar />
+      <Main />
     </div>
   );
+}
 }
 
 export default App;
