@@ -2,7 +2,7 @@ import React from 'react'; // Import React explicitly
 
 class Sidebar extends React.Component {
   render() {
-    // Use JSX syntax for components and attributes
+    
     return (
       <div className='sidebar'>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
