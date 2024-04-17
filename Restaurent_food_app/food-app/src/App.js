@@ -1,21 +1,17 @@
 
 
-import Sidebar from './component/Sidebar';
-//import Main from './component/Main';
 import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {Sidebar, Main } from './component/index';
 
-function App () {
- 
-
+function App() {
   return (
-    <>
-     
-      <Sidebar />
-        
-      
+    < >
+    
+     <Sidebar />
+      <Main/>
     </>
   );
 }
-
 
 export default App;
